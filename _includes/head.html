@@ -1,0 +1,29 @@
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% seo %}
+
+<meta name="google-site-verification" content="TTAGeeNjDdodo4FIxOAz2soBHj-YzkqrtLMzdl3cB8A" />
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Custom fonts for this template -->
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/css/site.css" />
+
+<!-- Favicons generated at http://realfavicongenerator.net/ -->
+
+{% if site.addthis_id %}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_id }}"></script>
+{% endif %}
+
+{% if page.content contains '<script type="math/tex' %}
+<!-- MathJax for LaTeX -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}
+</head>
