@@ -14,12 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SecureLK
+tagline: Secure and Safer Sri Lankan Cyberspace
 email: public@ayoma.me
 author: Ayoma Wijethunga
 description: >- # this means to ignore newlines until "baseurl:"
-  Cybersecurity content creator focused on building a security aware community and well seasoned cybersecurity 
-  professionals, who are ready to own ever growing modern day security landscape. Our goal is to build content 
-  that gives easy access to modern day security knowledge, with enough depth a hacker would expect!
+  Cybersecurity and technology content creator focused on building a security aware community, software and network engineers with
+  un-to-date knowledge, and well seasoned cybersecurity professionals. Our goal is to build content that gives easy access to modern
+  day security and technology knowledge, with enough depth a hacker would expect! Most of the content we create are in Sinhala language
+  (Sri Lanka).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SecureLK
